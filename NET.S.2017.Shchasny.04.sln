@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericAlgorithms", "NumericAlgorithms\NumericAlgorithms.csproj", "{74FB1E71-794B-473B-B396-9EC3526720C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericAlgorithms.NUnitTests", "NumericAlgorithms.NUnitTests\NumericAlgorithms.NUnitTests.csproj", "{A423EF9A-59E1-4C00-82D7-4FB947F9E939}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{74FB1E71-794B-473B-B396-9EC3526720C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74FB1E71-794B-473B-B396-9EC3526720C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74FB1E71-794B-473B-B396-9EC3526720C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A423EF9A-59E1-4C00-82D7-4FB947F9E939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A423EF9A-59E1-4C00-82D7-4FB947F9E939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A423EF9A-59E1-4C00-82D7-4FB947F9E939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A423EF9A-59E1-4C00-82D7-4FB947F9E939}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -22,11 +22,10 @@ namespace NumericAlgorithms
         /// <returns>Result of operation, otherwise -1</returns>
         public static double FindRootOfNumber(double number, int n)
         {
-            if (number < 0 || n <= 0)
+            if (number <= 0 || n <= 0)
                 throw new ArgumentOutOfRangeException();
 
             double x = number;
-            int iter = 0;
             while (true)
             {
                 double xk = (x * n - x + number / Math.Pow(x, n - 1)) / n;
