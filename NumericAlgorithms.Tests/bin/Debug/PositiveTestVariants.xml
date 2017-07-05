@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <TestCase>
+    <number>4</number>
+    <n>2</n>
+    <expectedResult>2</expectedResult>
+  </TestCase>
+  <TestCase>
+    <number>169</number>
+    <n>2</n>
+    <expectedResult>13</expectedResult>
+  </TestCase>
+  <TestCase>
+    <number>5032,84375</number>
+    <n>5</n>
+    <expectedResult>5,5</expectedResult>
+  </TestCase>
+  <TestCase>
+    <number>34012224</number>
+    <n>6</n>
+    <expectedResult>18</expectedResult>
+  </TestCase>
+  <TestCase>
+    <number>32768</number>
+    <n>15</n>
+    <expectedResult>2</expectedResult>
+  </TestCase>
+</TestCases>
